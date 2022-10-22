@@ -8,9 +8,9 @@ void main()
 	int row, col;
 	for (row = 1; row <= ROW; ++row)
 	{
-		for (col = 1; col <= COL; ++col)
+		for (col = 1; col <= row; ++col)
 		{
-			printf("%d * %d = %d", row, col, row * col);
+			printf("%d * %d = %d", row, col, col * row);
 			printf("\t");
 		}
 		printf("\n");
