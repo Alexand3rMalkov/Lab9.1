@@ -3,10 +3,7 @@
 #define ROW 9
 #define COL 9
 #include <stdio.h>
-#include <locale.h>
-#include <math.h>
-
-void main(void)
+void main()
 {
 	int row, col;
 	for (row = 1; row <= ROW; ++row)
